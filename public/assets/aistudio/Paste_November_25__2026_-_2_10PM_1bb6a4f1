@@ -1,0 +1,1558 @@
+# PRODUCT REQUIREMENTS DOCUMENT (PRD)
+# SUBHAM SINGH — PROFESSIONAL DEVELOPER PORTFOLIO
+
+**Document Version:** 1.0  
+**Project Name:** Subham Singh — Developer Portfolio  
+**Project Type:** Personal Developer Portfolio Website  
+**Project Owner:** Subham Singh  
+**Project Status:** Planning / Pre-development  
+**Document Purpose:** Product planning, UI/UX design, technical architecture, development and deployment.
+
+---
+
+# 1. PROJECT OVERVIEW
+
+## 1.1 Project Introduction
+
+The objective is to design and develop a modern, professional, responsive and visually engaging personal portfolio website for Subham Singh, a first-year college student interested in full-stack web development and artificial intelligence.
+
+The portfolio will act as a digital identity where visitors can explore the owner's background, technical skills, development projects, learning journey and contact information.
+
+The website should demonstrate both technical knowledge and a strong understanding of modern web design.
+
+The visual experience should be inspired by modern SaaS products, developer dashboards, futuristic technology interfaces and professional software developer portfolios.
+
+The website must include a premium dark theme, an elegant light theme, smooth animations, interactive components, responsive layouts and a well-structured multi-page architecture.
+
+## 1.2 Product Vision
+
+Build a premium developer portfolio that represents Subham Singh as an enthusiastic and growing full-stack developer who enjoys building modern web applications and exploring emerging technologies.
+
+The website should communicate:
+
+- Who I am.
+- What technologies I work with.
+- What I can build.
+- What projects I have developed.
+- What I am currently learning.
+- How visitors can contact or collaborate with me.
+
+## 1.3 Product Mission
+
+Create a professional online presence that helps establish credibility, showcase practical development abilities, attract internship opportunities and connect with other developers.
+
+---
+
+# 2. OWNER PROFILE AND PERSONAL INFORMATION
+
+## 2.1 Personal Details
+
+| Field | Information |
+|---|---|
+| Full Name | Subham Singh |
+| Current Education | First-year college student |
+| Professional Identity | Aspiring Full-Stack Developer |
+| Primary Interest | Full-Stack Web Development |
+| Secondary Interest | Artificial Intelligence |
+| Website Type | Personal Developer Portfolio |
+
+## 2.2 Technical Skills
+
+### Frontend Development
+- HTML
+- CSS
+- JavaScript
+- React.js
+
+### Backend Development
+- Node.js
+- API Development and Integration
+
+### Database
+- DBMS Fundamentals
+- SQL
+
+### Additional Interests
+- Artificial Intelligence Concepts
+- Modern Web Technologies
+- Software Development
+- Problem Solving
+
+Note: Skills must be presented honestly. The website must not display fabricated certifications, years of experience, expertise percentages or professional achievements.
+
+## 2.3 Brand Positioning
+
+The website should position its owner as:
+
+"A first-year college student passionate about full-stack development, building modern web experiences and exploring artificial intelligence."
+
+## 2.4 Suggested Personal Introduction
+
+"Hi, I'm Subham Singh, a first-year college student and an aspiring full-stack developer. I enjoy creating modern web applications, exploring new technologies and turning ideas into functional digital experiences. My interests include frontend development, backend systems, databases and artificial intelligence."
+
+This text can be refined during the content and UI design phase.
+
+---
+
+# 3. PROBLEM STATEMENT
+
+Students and emerging developers often struggle to present their technical knowledge and personal projects in a professional way.
+
+A traditional resume does not fully demonstrate coding ability, interface design skills, project architecture or problem-solving capabilities.
+
+A professional portfolio solves this problem by providing an organized and interactive platform to showcase skills, projects, technical knowledge and personal development.
+
+The proposed website should solve the following problems:
+
+1. Lack of a professional online developer identity.
+2. Difficulty presenting technical skills in an organized manner.
+3. Lack of a centralized place to showcase projects.
+4. Limited visibility for recruiters and potential collaborators.
+5. Difficulty communicating technical interests and learning progress.
+
+---
+
+# 4. PRODUCT GOALS AND OBJECTIVES
+
+## 4.1 Primary Goals
+
+1. Establish a strong personal developer identity.
+2. Showcase frontend and backend development skills.
+3. Display completed projects with proper technical explanations.
+4. Provide an intuitive way to contact the owner.
+5. Create a fully responsive professional website.
+6. Demonstrate modern frontend development capabilities.
+7. Build a scalable portfolio that can grow throughout college.
+
+## 4.2 Secondary Goals
+
+1. Demonstrate UI/UX design awareness.
+2. Showcase interest in AI and modern technologies.
+3. Include a personal learning journey.
+4. Provide downloadable resume functionality.
+5. Optimize search engine visibility.
+6. Maintain a clean and reusable codebase.
+
+## 4.3 Success Metrics
+
+The project will be evaluated using the following indicators:
+
+- All required pages load correctly.
+- Navigation works without broken routes.
+- Dark/light theme works across all pages.
+- Website adapts correctly to desktop, tablet and mobile.
+- Project filters and details work correctly.
+- Contact form successfully submits messages.
+- No major accessibility or console errors.
+- Good Core Web Vitals performance.
+- Search engine metadata is configured.
+- All social links and external resources work.
+
+---
+
+# 5. TARGET AUDIENCE
+
+## 5.1 Primary Users
+
+### Recruiters and Internship Providers
+They want to understand the owner's skills, technical capabilities, projects and potential.
+
+### Developers
+They may want to explore coding projects, technologies, repositories and implementation details.
+
+### College Students
+They may want to connect, collaborate or learn about the owner's development journey.
+
+### Potential Collaborators
+They want to understand what the owner can build and how to get in touch.
+
+## 5.2 User Expectations
+
+Visitors should be able to:
+
+- Understand the owner's profile within a few seconds.
+- Navigate between pages easily.
+- Explore skills without unnecessary complexity.
+- View projects and technical explanations.
+- Access GitHub and other professional profiles.
+- Contact the owner without difficulty.
+
+---
+
+# 6. PRODUCT SCOPE
+
+## 6.1 Core Features — MUST HAVE (P0)
+
+- Professional homepage.
+- About page.
+- Skills page.
+- Projects listing page.
+- Individual project details page.
+- Personal journey page.
+- Contact page.
+- Custom 404 page.
+- Responsive navigation.
+- Dark/light theme toggle.
+- Project filtering.
+- Functional social links.
+- Basic SEO.
+- Responsive design.
+
+## 6.2 Important Features — SHOULD HAVE (P1)
+
+- Animated hero section.
+- Code editor-inspired visual component.
+- Scroll-based reveal animations.
+- Interactive skill cards.
+- Downloadable resume.
+- Contact form with backend integration.
+- Project screenshots and galleries.
+- Smooth page transitions.
+- Custom loading and error states.
+- SEO sitemap and robots configuration.
+
+## 6.3 Future Enhancements — NICE TO HAVE (P2)
+
+- AI-powered portfolio assistant.
+- Blog and technical articles.
+- GitHub activity integration.
+- Dynamic project management system.
+- Advanced project search.
+- Interactive coding playground.
+- Admin dashboard.
+- Content management system.
+
+P2 features are not required for the first production release.
+
+---
+
+# 7. WEBSITE STRUCTURE AND INFORMATION ARCHITECTURE
+
+The website must use a multi-page architecture.
+
+## 7.1 Sitemap
+
+1. Home — /
+2. About — /about
+3. Skills — /skills
+4. Projects — /projects
+5. Project Details — /projects/:slug
+6. Journey — /journey
+7. Contact — /contact
+8. Not Found — *
+
+## 7.2 Global Components
+
+The following components should be shared throughout the application:
+
+- Navbar
+- Logo
+- Theme Toggle
+- Navigation Links
+- Mobile Navigation Menu
+- Footer
+- Social Links
+- Primary Button
+- Secondary Button
+- Section Heading
+- Project Card
+- Skill Card
+- Loading Indicator
+- Back-to-Top Button
+- Custom Cursor Effects (optional and accessibility-aware)
+
+---
+
+# 8. PAGE-BY-PAGE FUNCTIONAL REQUIREMENTS
+
+## 8.1 HOME PAGE
+
+Route: /
+
+### Objective
+
+Create a strong first impression and communicate the owner's identity, skills and development interests.
+
+### Required Sections
+
+**A. Navbar**
+
+Include:
+- Personal logo or initials (SS).
+- Home.
+- About.
+- Skills.
+- Projects.
+- Journey.
+- Contact.
+- Dark/light theme toggle.
+
+Requirements:
+- Sticky navigation.
+- Active page indicator.
+- Mobile hamburger menu.
+- Smooth navigation.
+- Responsive layout.
+- Accessible keyboard navigation.
+
+**B. Hero Section**
+
+Include:
+- Greeting: "Hello, I'm Subham Singh."
+- Main heading: "Building the Web. Exploring What's Next."
+- Short personal introduction.
+- Developer status indicator.
+- View Projects button.
+- Contact Me button.
+- GitHub link.
+- LinkedIn link, when available.
+
+Design direction:
+- Two-column desktop layout.
+- Text on the left.
+- Code-editor-inspired visual on the right.
+- Responsive stacked layout on mobile.
+- Subtle gradient background.
+- Animated decorative elements.
+
+**C. Featured Projects**
+
+Display selected projects in a card-based layout.
+
+Each card must include:
+- Project thumbnail.
+- Project name.
+- Short description.
+- Technology tags.
+- View Project button.
+- GitHub repository link.
+- Live demo link when available.
+
+**D. Technology Overview**
+
+Show the main technology groups:
+
+Frontend:
+HTML, CSS, JavaScript, React.
+
+Backend:
+Node.js, APIs.
+
+Database:
+DBMS, SQL.
+
+AI:
+AI concepts and learning interests.
+
+**E. About Preview**
+
+Include:
+- Short introduction.
+- Current education status.
+- Development interests.
+- Read More button.
+
+**F. Current Learning Section**
+
+Show technologies or concepts currently being explored.
+
+**G. Contact CTA**
+
+Suggested heading:
+
+"Have an idea? Let's build something together."
+
+Include a Contact Me button.
+
+**H. Footer**
+
+Include:
+- Name.
+- Navigation links.
+- Social profiles.
+- Email address when provided.
+- Copyright notice.
+- Back-to-top functionality.
+
+---
+
+## 8.2 ABOUT PAGE
+
+Route: /about
+
+### Objective
+
+Present the owner's personality, background and development journey.
+
+### Required Sections
+
+1. Personal introduction.
+2. Profile photograph or illustration (optional).
+3. Education information.
+4. Coding journey.
+5. Interest in full-stack development.
+6. Interest in artificial intelligence.
+7. Personal development goals.
+8. Future ambitions.
+9. Contact CTA.
+
+The page should use a clean editorial layout with good typography and limited decorative effects.
+
+Do not invent college names, academic achievements or work experience.
+
+---
+
+## 8.3 SKILLS PAGE
+
+Route: /skills
+
+### Objective
+
+Display technical knowledge in a clear and structured manner.
+
+### Skill Categories
+
+**Frontend Development**
+- HTML
+- CSS
+- JavaScript
+- React
+
+**Backend Development**
+- Node.js
+- API Development
+- API Integration
+
+**Database**
+- DBMS
+- SQL
+
+**AI and Emerging Technology**
+- Artificial Intelligence Concepts
+- AI Fundamentals (only after the specific concepts have been identified)
+
+### Design Requirements
+
+- Modern skill cards.
+- Technology icons.
+- Short descriptions.
+- Category-based organization.
+- Interactive hover effects.
+- Responsive grid.
+- Learning-status indicators.
+
+### Important Rule
+
+Do not use fake percentage-based proficiency indicators.
+
+Instead, use honest labels such as:
+
+- Familiar With
+- Currently Using
+- Currently Learning
+- Exploring
+
+---
+
+## 8.4 PROJECTS PAGE
+
+Route: /projects
+
+### Objective
+
+Showcase the owner's actual development projects.
+
+### Required Elements
+
+- Projects heading.
+- Introduction.
+- Category filters.
+- Responsive project grid.
+- Project cards.
+- Empty state when no projects are available.
+
+### Project Categories
+
+- All
+- Frontend
+- Full-Stack
+- Backend
+- AI Experiments
+
+### Project Card Structure
+
+Each project card should contain:
+
+- Project image.
+- Project title.
+- Short description.
+- Technology stack.
+- Category.
+- Live demo link.
+- GitHub repository link.
+- View Details action.
+
+### Filtering Behaviour
+
+When a visitor selects a category:
+- Only matching projects are displayed.
+- The selected category is highlighted.
+- Other projects are hidden.
+- The All option displays every project.
+
+Project information must come from structured data files rather than hardcoded markup repeated across components.
+
+---
+
+## 8.5 PROJECT DETAILS PAGE
+
+Route: /projects/:slug
+
+### Objective
+
+Explain the technical work behind an individual project.
+
+### Required Sections
+
+1. Project title.
+2. Hero image or project screenshot.
+3. Project overview.
+4. Problem statement.
+5. Project objectives.
+6. Main features.
+7. Technology stack.
+8. Development process.
+9. Architecture or workflow.
+10. Challenges faced.
+11. Solutions implemented.
+12. Key learnings.
+13. Live demo.
+14. GitHub repository.
+15. Related projects.
+
+### Dynamic Behaviour
+
+Each project must have a unique slug.
+
+Example:
+- /projects/task-manager
+- /projects/weather-dashboard
+
+For an invalid project slug, display a proper not-found state.
+
+Project content must only contain verified information.
+
+---
+
+## 8.6 JOURNEY PAGE
+
+Route: /journey
+
+### Objective
+
+Show the owner's growth as a developer.
+
+### Required Sections
+
+- Education timeline.
+- Beginning of coding journey.
+- Technologies learned.
+- Major projects completed.
+- Current learning activities.
+- Future learning goals.
+
+### Design
+
+- Vertical timeline.
+- Year or milestone labels.
+- Technology tags.
+- Simple scroll animations.
+- Responsive timeline layout.
+
+The timeline must be editable as the owner's journey progresses.
+
+---
+
+## 8.7 CONTACT PAGE
+
+Route: /contact
+
+### Objective
+
+Make communication simple and accessible.
+
+### Required Elements
+
+Contact introduction:
+"Let's connect and build something meaningful."
+
+Contact form fields:
+- Name
+- Email
+- Subject
+- Message
+
+### Functional Requirements
+
+- Required-field validation.
+- Email format validation.
+- Character limits.
+- Submit loading state.
+- Success notification.
+- Error notification.
+- Duplicate submission prevention.
+- Spam protection.
+
+### Backend Requirements
+
+The frontend should submit form data to a secure server-side endpoint.
+
+Example:
+
+POST /api/contact
+
+The backend must:
+- Validate and sanitize input.
+- Apply rate limiting.
+- Protect against spam.
+- Deliver the message through a configured email service.
+- Return an appropriate success or error response.
+- Avoid exposing private credentials.
+
+The actual email provider can be selected during implementation.
+
+---
+
+## 8.8 CUSTOM 404 PAGE
+
+Route: *
+
+### Objective
+
+Provide a branded experience when a visitor opens an invalid page.
+
+### Required Elements
+
+- Large 404 text.
+- Short error message.
+- Back to Home button.
+- Standard navigation and footer.
+- Dark/light theme support.
+
+---
+
+# 9. UI/UX DESIGN REQUIREMENTS
+
+## 9.1 Design Concept
+
+Selected design direction:
+
+PREMIUM NEON TECH / DIGITAL DEVELOPER WORKSPACE
+
+The design should combine:
+- Modern SaaS website design.
+- Futuristic developer interfaces.
+- Minimalist editorial layouts.
+- Coding editor-inspired components.
+- Carefully controlled neon accents.
+- Premium typography.
+- Subtle gradients and shadows.
+
+The interface should look sophisticated rather than excessively futuristic.
+
+## 9.2 Visual Reference Direction
+
+Use design inspiration from:
+- Modern software developer portfolios.
+- Premium SaaS landing pages.
+- Minimal developer dashboards.
+- Modern code editor interfaces.
+- Contemporary technology websites.
+
+These are visual references, not templates to copy.
+
+## 9.3 Dark Theme Color Palette
+
+Primary background:
+#080B14
+
+Secondary background:
+#0D1321
+
+Card background:
+#111827
+
+Elevated surface:
+#182235
+
+Primary accent:
+#38D6F2
+
+Secondary accent:
+#8B5CF6
+
+Text primary:
+#F8FAFC
+
+Text secondary:
+#A1AEC0
+
+Border:
+#263247
+
+## 9.4 Light Theme Color Palette
+
+Primary background:
+#F5F7FB
+
+Secondary background:
+#EEF2F8
+
+Card background:
+#FFFFFF
+
+Primary accent:
+#0789A7
+
+Secondary accent:
+#7652D8
+
+Text primary:
+#111827
+
+Text secondary:
+#64748B
+
+Border:
+#E2E8F0
+
+All color combinations must be checked for sufficient text contrast.
+
+## 9.5 Typography
+
+Recommended typography:
+
+Primary font:
+Geist or Inter.
+
+Technical font:
+JetBrains Mono.
+
+Usage:
+- Headings: Modern sans-serif, strong weight.
+- Paragraphs: Readable sans-serif.
+- Code elements: Monospace.
+- Labels: Compact, clearly distinguished typography.
+
+## 9.6 Layout System
+
+- Main container maximum width: approximately 1200px.
+- Desktop: 12-column layout system.
+- Tablet: Adaptive grid.
+- Mobile: Single-column layout where suitable.
+- Standard spacing based on an 8px scale.
+- Cards: Approximately 16–24px border radius.
+- Consistent button heights and spacing.
+- Clearly defined visual hierarchy.
+
+---
+
+# 10. ADVANCED DESIGN EFFECTS AND ANIMATIONS
+
+The website should feel modern through purposeful animations.
+
+## 10.1 Hero Animations
+
+- Smooth entrance animation.
+- Text reveal.
+- Subtle gradient movement.
+- Code editor visual animation.
+- Small status indicator animation.
+
+## 10.2 Scroll Animations
+
+- Section reveal.
+- Fade-in.
+- Slight vertical movement.
+- Staggered card appearance.
+
+## 10.3 Hover Effects
+
+- Card lift.
+- Border glow.
+- Gradient transitions.
+- Button interaction.
+- Icon movement.
+
+## 10.4 Background Effects
+
+- Subtle gradient mesh.
+- Very light grid pattern.
+- Controlled glow effects.
+- Optional floating decorative elements.
+
+## 10.5 Page Transitions
+
+- Short fade or opacity transitions.
+- Consistent navigation feedback.
+- No excessive loading delays.
+
+## 10.6 Motion Accessibility
+
+- Support prefers-reduced-motion.
+- Avoid essential information being hidden behind animations.
+- Maintain usability when animations are disabled.
+- Avoid distracting continuous animations.
+
+Animation should enhance the experience without reducing performance.
+
+---
+
+# 11. DARK/LIGHT MODE FUNCTIONAL REQUIREMENTS
+
+Theme switching is a core feature.
+
+Requirements:
+
+1. Provide a theme toggle in the global navigation.
+2. Support dark and light themes.
+3. Use dark mode as the initial fallback.
+4. Respect the system preference on the first visit when possible.
+5. Allow manual theme selection.
+6. Store the manually selected preference in localStorage.
+7. Restore the selected theme after refresh.
+8. Maintain theme consistency across all routes.
+9. Provide a smooth transition.
+10. Use accessible labels for the toggle.
+11. Avoid a visible flash of the wrong theme during initial loading.
+
+All colors must use centralized design tokens or CSS variables.
+
+---
+
+# 12. TECHNICAL STACK
+
+## 12.1 Frontend
+
+React 19:
+- Component-based architecture.
+- Reusable UI.
+- State management.
+- Page rendering.
+
+Vite:
+- Development server.
+- Build tooling.
+- Application bundling.
+
+Tailwind CSS v4:
+- Utility-first styling.
+- Responsive layouts.
+- Theme styling.
+- Consistent design implementation.
+
+React Router:
+- Multi-page navigation.
+- Dynamic project routes.
+- 404 handling.
+
+Motion for React:
+- Entrance animations.
+- Scroll animations.
+- Hover interactions.
+- Page transitions.
+
+Lucide React:
+- Consistent icons.
+
+## 12.2 Backend
+
+Node.js:
+- Server-side runtime.
+
+Express.js or a serverless backend:
+- Contact form endpoint.
+- Server-side validation.
+- Email delivery integration.
+
+## 12.3 Database
+
+A database is not required for the initial portfolio version.
+
+Project information, skill information and timeline information should initially be stored in structured JavaScript data files.
+
+A database can be introduced later if an admin dashboard or dynamic content management system becomes necessary.
+
+## 12.4 Development Tools
+
+- Visual Studio Code.
+- Git.
+- GitHub.
+- Browser Developer Tools.
+- ESLint.
+- Prettier.
+- Vitest.
+- Playwright.
+
+## 12.5 Deployment
+
+Frontend:
+Vercel.
+
+Backend:
+Vercel Functions or a separately hosted Node.js service.
+
+Version Control:
+GitHub.
+
+Custom Domain:
+To be selected later.
+
+---
+
+# 13. PROJECT DIRECTORY STRUCTURE
+
+Recommended folder structure:
+
+subham-portfolio/
+│
+├── public/
+│   ├── images/
+│   ├── icons/
+│   ├── resume/
+│   ├── favicon.svg
+│   └── robots.txt
+│
+├── src/
+│   ├── assets/
+│   │
+│   ├── components/
+│   │   ├── layout/
+│   │   │   ├── Navbar.jsx
+│   │   │   ├── Footer.jsx
+│   │   │   └── PageLayout.jsx
+│   │   │
+│   │   ├── common/
+│   │   │   ├── Button.jsx
+│   │   │   ├── ThemeToggle.jsx
+│   │   │   ├── SectionTitle.jsx
+│   │   │   └── SocialLinks.jsx
+│   │   │
+│   │   ├── home/
+│   │   ├── skills/
+│   │   ├── projects/
+│   │   └── contact/
+│   │
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── About.jsx
+│   │   ├── Skills.jsx
+│   │   ├── Projects.jsx
+│   │   ├── ProjectDetails.jsx
+│   │   ├── Journey.jsx
+│   │   ├── Contact.jsx
+│   │   └── NotFound.jsx
+│   │
+│   ├── data/
+│   │   ├── projects.js
+│   │   ├── skills.js
+│   │   └── journey.js
+│   │
+│   ├── context/
+│   │   └── ThemeContext.jsx
+│   │
+│   ├── hooks/
+│   ├── utils/
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── server/
+│   └── contact.js
+│
+├── index.html
+├── package.json
+├── vite.config.js
+├── eslint.config.js
+└── README.md
+
+The exact structure may be adjusted during implementation, but pages, reusable components, data and business logic must remain logically separated.
+
+---
+
+# 14. APPLICATION ARCHITECTURE
+
+The application should use a modular frontend architecture.
+
+### Frontend Layer
+
+Responsible for:
+- Rendering pages.
+- Navigation.
+- Theme management.
+- Animations.
+- Project filtering.
+- Contact form UI.
+- Responsive interactions.
+
+### Content Layer
+
+Responsible for:
+- Project data.
+- Skills information.
+- Journey timeline.
+- Personal profile information.
+
+### Backend Layer
+
+Responsible for:
+- Contact form submissions.
+- Input validation.
+- Spam prevention.
+- Email notification delivery.
+
+### External Services
+
+Optional integrations:
+- GitHub.
+- Email service provider.
+- Analytics provider.
+- Hosting platform.
+
+Architecture principle:
+
+Keep the project simple, modular and maintainable. Avoid introducing unnecessary databases, backend services or third-party dependencies.
+
+---
+
+# 15. FUNCTIONAL REQUIREMENTS
+
+| ID | Requirement | Priority |
+|---|---|---|
+| FR-01 | Global navigation | P0 |
+| FR-02 | Responsive mobile navigation | P0 |
+| FR-03 | Dark/light theme | P0 |
+| FR-04 | Homepage hero section | P0 |
+| FR-05 | About page | P0 |
+| FR-06 | Skills categorization | P0 |
+| FR-07 | Projects listing | P0 |
+| FR-08 | Project filters | P0 |
+| FR-09 | Project detail routes | P0 |
+| FR-10 | Journey timeline | P0 |
+| FR-11 | Contact page | P0 |
+| FR-12 | Custom 404 page | P0 |
+| FR-13 | Social media links | P0 |
+| FR-14 | Contact form backend | P1 |
+| FR-15 | Resume download | P1 |
+| FR-16 | Scroll animations | P1 |
+| FR-17 | GitHub activity integration | P2 |
+| FR-18 | AI portfolio assistant | P2 |
+| FR-19 | Blog functionality | P2 |
+| FR-20 | Admin dashboard | P2 |
+
+---
+
+# 16. NON-FUNCTIONAL REQUIREMENTS
+
+## 16.1 Performance
+
+- Optimize images.
+- Lazy-load below-the-fold images.
+- Avoid unnecessarily large JavaScript bundles.
+- Limit excessive animation.
+- Use efficient rendering.
+- Minimize layout shifts.
+- Use appropriate caching.
+
+Performance goals:
+
+- Largest Contentful Paint: 2.5 seconds or less.
+- Interaction to Next Paint: 200 milliseconds or less.
+- Cumulative Layout Shift: 0.1 or less.
+
+These should be targeted at the 75th percentile for real-user data where available.
+
+## 16.2 Responsiveness
+
+The website must work across:
+
+- Mobile phones.
+- Tablets.
+- Laptops.
+- Desktop monitors.
+- Large displays.
+
+No horizontal overflow should occur.
+
+## 16.3 Accessibility
+
+Target WCAG 2.2 AA practices.
+
+Requirements:
+- Semantic HTML.
+- Keyboard navigation.
+- Visible focus indicators.
+- Accessible form labels.
+- Meaningful image alt text.
+- Proper color contrast.
+- Screen-reader-friendly controls.
+- Reduced-motion support.
+
+## 16.4 Security
+
+- Validate form data on the server.
+- Sanitize user input.
+- Protect API credentials.
+- Use HTTPS.
+- Implement rate limiting.
+- Prevent spam submissions.
+- Avoid exposing sensitive server information.
+- Do not commit environment secrets to GitHub.
+
+## 16.5 SEO
+
+- Unique page titles.
+- Meta descriptions.
+- Open Graph metadata.
+- Descriptive URLs.
+- Sitemap.
+- Robots.txt.
+- Canonical URLs where appropriate.
+- Appropriate heading hierarchy.
+- Descriptive image alt text.
+- Relevant structured data where justified.
+
+## 16.6 Browser Compatibility
+
+Support modern versions of:
+
+- Google Chrome.
+- Microsoft Edge.
+- Mozilla Firefox.
+- Safari.
+
+---
+
+# 17. DATA REQUIREMENTS
+
+## 17.1 Project Data
+
+Each project should support the following fields:
+
+- id
+- title
+- slug
+- description
+- longDescription
+- category
+- technologies
+- image
+- gallery
+- liveUrl
+- githubUrl
+- features
+- challenges
+- learnings
+- featured
+- completionStatus
+
+Optional fields should be omitted when information is unavailable.
+
+## 17.2 Skills Data
+
+Each skill should support:
+
+- id
+- name
+- category
+- icon
+- description
+- learningStatus
+
+## 17.3 Journey Data
+
+Each timeline entry should support:
+
+- id
+- title
+- date
+- description
+- technologies
+- type
+
+## 17.4 Profile Data
+
+Profile information should be stored centrally where practical:
+
+- name
+- title
+- introduction
+- email
+- GitHub URL
+- LinkedIn URL
+- resume URL
+- education information
+- social links
+
+No private personal information should be displayed without explicit approval.
+
+---
+
+# 18. USER EXPERIENCE FLOWS
+
+## 18.1 Visitor Exploring Portfolio
+
+1. Visitor opens homepage.
+2. Visitor reads introduction.
+3. Visitor explores featured projects.
+4. Visitor opens the projects page.
+5. Visitor selects a project.
+6. Visitor reads the project details.
+7. Visitor visits the GitHub repository or live demo.
+
+Expected outcome: Visitor understands the owner's practical development experience.
+
+## 18.2 Recruiter Contact Flow
+
+1. Recruiter opens homepage.
+2. Recruiter explores About and Skills pages.
+3. Recruiter views projects.
+4. Recruiter accesses the Contact page.
+5. Recruiter submits the contact form.
+6. Website displays the appropriate response.
+
+Expected outcome: Recruiter can contact the owner without confusion.
+
+## 18.3 Theme Switching Flow
+
+1. Visitor opens website.
+2. Website loads the appropriate theme.
+3. Visitor clicks theme toggle.
+4. Website changes all theme-dependent styles.
+5. Preference is saved.
+6. Theme remains consistent after refresh.
+
+---
+
+# 19. ERROR AND EMPTY STATES
+
+The application must handle unexpected situations gracefully.
+
+Required states:
+
+- Invalid route.
+- Invalid project slug.
+- Missing project image.
+- No projects available.
+- Contact form validation failure.
+- Contact submission failure.
+- Network error.
+- Loading state.
+- Missing resume.
+- External link unavailable.
+
+Each state should have useful feedback and appropriate recovery actions.
+
+---
+
+# 20. CONTENT AND ASSET REQUIREMENTS
+
+The following information must be collected before the final production launch.
+
+| Asset | Status |
+|---|---|
+| Full Name | Available |
+| Education Year | Available |
+| College Name | Pending |
+| Profile Photograph | Optional |
+| Short Introduction | Draft available |
+| Full About Content | Pending |
+| GitHub Profile URL | Pending |
+| LinkedIn URL | Optional |
+| Contact Email | Pending |
+| Actual Projects | Pending |
+| Project Screenshots | Pending |
+| Project Repository Links | Pending |
+| Live Demo Links | Pending |
+| Resume PDF | Optional |
+| AI Topics Explored | Pending |
+
+Do not fabricate missing information.
+
+Use clearly identified placeholders during development.
+
+---
+
+# 21. TESTING STRATEGY
+
+## 21.1 Functional Testing
+
+Verify:
+- All navigation links.
+- Theme switching.
+- Theme persistence.
+- Project filtering.
+- Project details routing.
+- Contact form validation.
+- Contact form submission.
+- Social media links.
+- Resume download.
+- 404 handling.
+
+## 21.2 Responsive Testing
+
+Test at:
+- 360px mobile.
+- 390px mobile.
+- 768px tablet.
+- 1024px laptop.
+- 1440px desktop.
+- 1920px desktop.
+
+## 21.3 Accessibility Testing
+
+Verify:
+- Keyboard navigation.
+- Focus visibility.
+- Form labels.
+- Heading hierarchy.
+- Color contrast.
+- Alternative image text.
+- Reduced-motion behaviour.
+
+## 21.4 Performance Testing
+
+Use:
+- Lighthouse.
+- Chrome DevTools.
+- PageSpeed Insights.
+- Web Vitals measurement.
+
+## 21.5 Browser Testing
+
+Test in Chrome, Edge, Firefox and Safari.
+
+---
+
+# 22. ACCEPTANCE CRITERIA
+
+The website is considered ready for production when all of the following conditions are met:
+
+1. Every required route loads successfully.
+2. Navigation works on desktop and mobile.
+3. Theme switching works throughout the website.
+4. Theme selection persists after reload.
+5. All pages use the common design system.
+6. Projects are displayed using actual supplied content.
+7. Project filters work correctly.
+8. Project detail pages resolve the correct slug.
+9. Invalid routes display the 404 page.
+10. Contact inputs are validated.
+11. Contact submissions reach the configured backend service.
+12. Social links open the correct destinations.
+13. Mobile layouts have no horizontal overflow.
+14. Images are optimized.
+15. Accessibility checks have been completed.
+16. SEO metadata is present.
+17. No major browser console errors remain.
+18. Production deployment works correctly.
+
+---
+
+# 23. DEVELOPMENT ROADMAP
+
+## PHASE 01 — PRODUCT PLANNING
+
+Status: Planning.
+
+Deliverables:
+- Profile analysis.
+- Product vision.
+- PRD.
+- Sitemap.
+- Feature requirements.
+- Technical direction.
+
+## PHASE 02 — UI/UX DESIGN
+
+Deliverables:
+- Design system.
+- Color palette.
+- Typography selection.
+- Desktop homepage design.
+- Mobile homepage design.
+- Internal page layouts.
+- Component specifications.
+- Theme designs.
+
+## PHASE 03 — PROJECT INITIALIZATION
+
+Deliverables:
+- React 19 project.
+- Vite configuration.
+- Tailwind CSS installation.
+- Routing.
+- Global styles.
+- Theme context.
+- Folder structure.
+
+## PHASE 04 — FRONTEND DEVELOPMENT
+
+Deliverables:
+- Navigation.
+- Homepage.
+- About page.
+- Skills page.
+- Projects page.
+- Project details page.
+- Journey page.
+- Contact page.
+- 404 page.
+- Responsive layouts.
+- Animations.
+
+## PHASE 05 — BACKEND DEVELOPMENT
+
+Deliverables:
+- Contact API.
+- Server-side validation.
+- Email integration.
+- Rate limiting.
+- Security configuration.
+
+## PHASE 06 — TESTING AND OPTIMIZATION
+
+Deliverables:
+- Functional tests.
+- Responsive tests.
+- Accessibility checks.
+- Performance optimization.
+- Bug fixes.
+
+## PHASE 07 — DEPLOYMENT
+
+Deliverables:
+- GitHub repository.
+- Production build.
+- Website deployment.
+- Domain configuration.
+- SEO setup.
+- Final production verification.
+
+---
+
+# 24. RISKS AND MITIGATION
+
+| Risk | Mitigation |
+|---|---|
+| Missing project information | Use honest placeholders until real projects are available |
+| Overcomplicated design | Prioritize usability and visual hierarchy |
+| Slow animations | Use lightweight effects and optimized assets |
+| Inconsistent themes | Use centralized CSS design tokens |
+| Poor mobile experience | Follow mobile-first development |
+| Contact spam | Use server-side validation and rate limits |
+| Exposed API credentials | Use protected server environment variables |
+| Scope expansion | Keep P2 enhancements outside the first release |
+| Difficult maintenance | Use reusable components and structured data |
+
+---
+
+# 25. OUT OF SCOPE FOR INITIAL RELEASE
+
+The following should not be included in the initial version unless the project requirements change:
+
+- User authentication.
+- User registration.
+- Full admin dashboard.
+- Complex database management.
+- Paid subscriptions.
+- E-commerce.
+- Live chat system.
+- Unnecessary third-party integrations.
+- Artificially generated testimonials.
+- Fake professional work experience.
+- Fake skill proficiency percentages.
+- Fake project repositories.
+
+The initial product should remain focused on showcasing the owner's identity, skills and real development work.
+
+---
+
+# 26. FINAL PRODUCT DEFINITION
+
+The final deliverable will be a responsive, multi-page, premium developer portfolio for Subham Singh.
+
+The website will use React 19, Tailwind CSS and modern frontend development practices.
+
+It will provide:
+
+- Professional homepage.
+- About section.
+- Skills showcase.
+- Project gallery.
+- Individual project pages.
+- Development journey.
+- Contact system.
+- Dark/light theme.
+- Modern animation.
+- Responsive navigation.
+- SEO optimization.
+- Production deployment.
+
+The final result should represent a modern developer's professional digital identity while remaining authentic to the owner's current experience and development journey.
+
+---
+
+# 27. FINAL DESIGN AND DEVELOPMENT DIRECTIVE
+
+The development team must follow this order:
+
+**STEP 1 — ANALYSE**
+
+Understand the owner's current skills, profile, goals and available content.
+
+**STEP 2 — PLAN**
+
+Finalize the product requirements, sitemap, functionalities, architecture and priorities.
+
+**STEP 3 — DESIGN**
+
+Create the complete visual identity, UI/UX system, responsive layouts and component specifications.
+
+**STEP 4 — DEVELOP**
+
+Build the application using React 19 and Tailwind CSS, following reusable component architecture and clean coding practices.
+
+**STEP 5 — INTEGRATE**
+
+Connect the contact form to the backend and configure all external integrations.
+
+**STEP 6 — TEST**
+
+Test responsiveness, functionality, accessibility, performance and browser compatibility.
+
+**STEP 7 — DEPLOY**
+
+Publish the final production-ready application.
+
+IMPORTANT:
+
+Do not start coding immediately without establishing the design system and application structure.
+
+Do not compromise functionality for visual effects.
+
+Do not add unnecessary features simply to make the project appear advanced.
+
+Every component must have a clear purpose, every interaction must work, and every displayed achievement or project must be genuine.
+
+The ultimate goal is to build a portfolio that looks professionally designed, feels modern, performs efficiently and can evolve as Subham Singh grows as a developer.
+
+---
+
+**END OF PRODUCT REQUIREMENTS DOCUMENT**
+
+**Document Owner:** Subham Singh  
+**Version:** 1.0  
+**Next Development Stage:** Complete UI/UX Design and Visual System  
+**Project Status:** Ready for Design Planning

@@ -1,0 +1,75 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --bg-primary: #F5F7FB;
+  --bg-secondary: #EEF2F8;
+  --bg-card: #FFFFFF;
+  --bg-elevated: #FFFFFF;
+  --accent-primary: #0789A7;
+  --accent-secondary: #7652D8;
+  --text-primary: #111827;
+  --text-secondary: #64748B;
+  --border-subtle: #E2E8F0;
+  --grid-line: rgba(15, 23, 42, 0.045);
+}
+
+.dark {
+  --bg-primary: #080B14;
+  --bg-secondary: #0D1321;
+  --bg-card: #111827;
+  --bg-elevated: #182235;
+  --accent-primary: #38D6F2;
+  --accent-secondary: #8B5CF6;
+  --text-primary: #F8FAFC;
+  --text-secondary: #A1AEC0;
+  --border-subtle: #263247;
+  --grid-line: rgba(56, 214, 242, 0.045);
+}
+
+@layer base {
+  html {
+    font-family: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    scroll-behavior: smooth;
+    transition: background-color 180ms cubic-bezier(0.16, 1, 0.3, 1), color 180ms cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+    text-wrap: balance;
+  }
+
+  code, pre, .font-mono {
+    font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  }
+
+  .dark body {
+    letter-spacing: 0.005em;
+  }
+
+  ::selection {
+    background-color: color-mix(in srgb, var(--accent-primary) 25%, transparent);
+    color: var(--text-primary);
+  }
+}
+
+.bg-subtle-grid {
+  background-image:
+    linear-gradient(to right, var(--grid-line) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--grid-line) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
